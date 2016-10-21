@@ -1,0 +1,87 @@
+BuyNSell
+
+In 2001, Henry Jenkins started a unique concept through which he provided the local community with a platform to help them buy and sell used products. Henry named the venture BuyNSell and started the same from a small office in his home town, Abington, in Louisiana.
+
+With an increase in the customer base and popularity, John Williams eventually launched a chain of BuyNSell stores across 38 cities by 2008.
+
+In late 2010, Paul Henry Jenkins, the oldest son of Henry Jenkins, got involved with BuyNSell. Based on the success and growing customer base, Paul successfully led the BuyNSell outlets. By 2012, BuyNSell made a global presence with stores in 16 countries.
+
+The Current System
+
+At present, a BuyNSell store has two departments, Purchase and Sales. Each of these departments has a manager designated as Purchase Manager and Sales Manager, respectively.
+
+Prospective clients visit a BuyNSell store to register their product for sale or to buy products. When a seller registers a product, the store adds a 2% charge to the selling price as a service charge before making the product available for sale.
+
+However, a major limitation that buyers face is that, at times, they do not find the product they are looking for. In addition, a BuyNSell store does not have any mechanism to inform prospective buyers whenever a product, they intend to buy, arrives the store.
+
+Hence, many orders remain unplaced and clients are dissatisfied. As a result, there has been a loss in the company's revenue.
+
+The Envisioned System
+
+It is evident that to boost the business and meet customer demands, BuyNSell needs to make technological changes. The management of BuyNSell has analyzed that in-time-communication with buyers, which can highlight real-time availability of products, is of foremost priority. The management has also realized that the process for selling a product should be made hassle-free for the sellers.
+
+To fulfill the preceding requirements, the management has tied up with a software development organization. The management has instructed the organization to create an online application that can be used to buy and sell used products. During the first phase of the development, the BuyNSell application will simplify the process of both buying and selling products.
+
+During the subsequent phases, the application will be scaled to provide a comprehensive platform supported by a product shipping infrastructure where buyers and sellers can interact to do profitable business.
+
+To provide the envisioned functionalities, the BuyNSell application should have the following features in the first phase of development:
+
+Application should be accessible over the Internet.
+
+Application should be accessible to users, assigned with the buyer, seller, and administrator roles.
+
+The system should allow a buyer to perform the following activities:
+
+Browse through product categories.
+
+View details of a product.
+
+Place an order of a product by providing delivery information.
+
+The system should have an authorization mechanism to restrict access to product selling functions based on the fact whether the current user is a seller or not.
+
+The system should allow a seller to perform the following activities:
+
+Register with the application.
+
+Add details of a product to sell.
+
+Edit details of an added product.
+
+View status of the product.
+
+The system should have a mechanism to restrict access to administrative functions based on the fact whether the current user is an authorized BuyNSell employee or not.
+
+The system should allow an authenticated BuyNSell employee to perform the following activities:
+
+Manage products to ensure that they are assigned the correct categories.
+
+Delete products whose sellers could not be contacted.
+
+Delete orders whose buyers could not be contacted.
+
+Mark the orders as in-process or processed.
+
+The system should have a mechanism, where a store can provide discount coupons on purchases exceeding a specified amount, which can be redeemed in subsequent purchases.
+
+To implement the preceding features, the following specifications have been laid down to design the BuyNSell application:
+
+Application should be developed in ASP.NET MVC.
+
+Design, layout, and navigation of the application should be uniform across all Web pages.
+
+Book buying activities should be tracked across a user's session through a shopping cart.
+
+User authentication should be form-based.
+
+User authorization should be role-based.
+
+Data provided by the user must be validated.
+
+Discounts on online purchases should be easily configured through an XML file.
+
+Static views of the application should be cached.
+
+Application should provide information about the company's profile and its contact details.
+
+As an ASP.NET developer, you have been assigned the task to create the BuyNSell application.
